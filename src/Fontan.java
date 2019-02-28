@@ -7,7 +7,7 @@ public class Fontan {
     protected String color;
 
     public Fontan(String name, double volume, String address,String color) {
-
+        this(name , volume , address, color);
     }
 
     public Fontan(String name, double volume, String address) {
